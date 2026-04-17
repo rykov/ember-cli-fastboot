@@ -72,8 +72,6 @@ module.exports = {
     // is eval'd in app-boot
     app.options.autoRun = false;
 
-    app.import('vendor/experimental-render-mode-rehydrate.js');
-
     // get the app registry object and app name so that we can build the fastboot
     // tree
     this._appRegistry = app.registry;
